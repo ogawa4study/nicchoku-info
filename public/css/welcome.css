@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #002856;
+    text-align: center;
+}
+
+#intro .intro-text{
+    position: relative;
+    width: 100%;
+    margin-top: 180px;
+    background-color: #002856;
+}
+
+#intro .brand {
+    margin-top: 40px;
+}
+
+.intro-text h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 1.1em;
+    padding-top: 100px;
+    letter-spacing: 0.1em;
+}
+
+.line-spacer {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #FFF;
+}
+
+#buttons {
+    background-color: #002856;
+}
+
+.row {
+    justify-content: center;
+}
+
+.login-button {
+    background-color: #ffdb4f;
+    border: 1px;
+    border-color: #c0c6c9;
+    border-radius: 5px;
+    color: #383c3c;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.login-button:hover {
+    background-color: #d3ccd6;
+}
+
+.signup-button {
+    background-color: #d9333f;
+    border: 1px;
+    border-color: #c0c6c9;
+    border-radius: 5px;
+    color: #fef4f4;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.signup-button:hover {
+    background-color: #d3ccd6;
+}
