@@ -1,14 +1,13 @@
-@extends('layouts.app')
+@extends('layouts.app', ['header' => false])
 
 @section('content')
-    <div class="signup-form">
+    <div class="update-form">
     <div class="text-center">
-        <h1>Sign up</h1>
+        <h1>My profile</h1>
     </div>
-
+    
     <div class="row">
         <div class="col-md-6">
-
             {!! Form::open(['route' => 'signup.post']) !!}
                 <div class="form-group">
                     {!! Form::label('name', '名前') !!}
@@ -37,40 +36,33 @@
                 
                 <div class="form-group">
                     {!! Form::label('department', '部署') !!}
-                    {!! Form::text('department', old('department'), ['class' => 'form-control']) !!}
+                    {!! Form::email('department', old('department'), ['class' => 'form-control']) !!}
                 </div>
                 
                 <div class="form-group">
                     {!! Form::label('tel', '内線番号') !!}
-                    {!! Form::text('tel', old('tel'), ['class' => 'form-control']) !!}
+                    {!! Form::email('tel', old('tel'), ['class' => 'form-control']) !!}
                 </div>
                 
                 <div class="form-group">
                     {!! Form::label('birthday', '生年月日') !!}
-                    {!! Form::text('birthday', old('birthday'), ['class' => 'form-control']) !!}
+                    {!! Form::email('birthday', old('birthday'), ['class' => 'form-control']) !!}
                 </div>
                 
                 <div class="form-group">
                     {!! Form::label('hobby', '趣味') !!}
-                    {!! Form::text('hobby', old('hobby'), ['class' => 'form-control']) !!}
+                    {!! Form::email('hobby', old('hobby'), ['class' => 'form-control']) !!}
                 </div>
                 
                 <div class="form-group">
                     {!! Form::label('comment', 'ひとこと') !!}
-                    {!! Form::text('comment', old('comment'), ['class' => 'form-control']) !!}
+                    {!! Form::email('comment', old('comment'), ['class' => 'form-control']) !!}
                 </div>
-                
-            <!--<div class="col-md-6">-->
-                <!--<div class="profile picture text-center">-->
-                <!--        <img src="picture/profile-icon.png" alt="プロフィールアイコン">-->
-                <!--</div>-->
-                <!--参考サイトの画像追加フォーム-->
-                
-            <!--</div>-->
 
-                {!! Form::submit('Sign up', ['class' => 'btn signup-button btn-block']) !!}
+                {!! Form::submit('Update', ['class' => 'btn update-button btn-block']) !!}
             {!! Form::close() !!}
         </div>
     </div>
     </div>
+
 @endsection

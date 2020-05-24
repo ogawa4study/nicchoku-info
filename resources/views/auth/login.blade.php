@@ -1,12 +1,13 @@
-@extends('layouts.app')
+@extends('layouts.app', ['header' => false])
 
 @section('content')
+    <div class="login-form">
     <div class="text-center">
         <h1>Log in</h1>
     </div>
 
     <div class="row">
-        <div class="col-sm-6 offset-sm-3">
+        <div class="col-sm-6">
 
             {!! Form::open(['route' => 'login.post']) !!}
                 <div class="form-group">
@@ -19,10 +20,11 @@
                     {!! Form::password('password', ['class' => 'form-control']) !!}
                 </div>
 
-                {!! Form::submit('Log in', ['class' => 'btn login-button btn-block']) !!}
+                {!! Form::submit('Login', ['class' => 'btn login-button btn-block']) !!}
             {!! Form::close() !!}
 
             <p class="mt-2">New user? {!! link_to_route('signup.get', 'Sign up now!') !!}</p>
         </div>
+    </div>
     </div>
 @endsection

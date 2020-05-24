@@ -9,8 +9,9 @@
     </head>
 
     <body>
-
-        @include('commons.navbar')
+        @if(!isset($header) || $header)
+            @include('commons.navbar')
+        @endif
         
         <div class="container">
             @include('commons.error_messages')

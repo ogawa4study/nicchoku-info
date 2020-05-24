@@ -24,7 +24,6 @@ class CreateUsersTable extends Migration
             $table->string('birthday');
             $table->string('hobby');
             $table->string('comment');
-            $table->string('profile_picture');
             $table->rememberToken();
             $table->timestamps();
         });

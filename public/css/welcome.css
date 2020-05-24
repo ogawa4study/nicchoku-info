@@ -7,6 +7,18 @@ html {
     text-align: center;
 }
 
+body {
+    background-color: #002856;
+}
+
+.navbar a {
+    color: #FFF;
+}
+
+.navbar-nav {
+    color:#FFF;
+}
+
 #intro .intro-text{
     position: relative;
     width: 100%;
@@ -44,6 +56,10 @@ html {
     justify-content: center;
 }
 
+.login-form {
+    background-color: #FFF;
+}
+
 .login-button {
     background-color: #ffdb4f;
     border: 1px;
@@ -58,6 +74,10 @@ html {
     background-color: #d3ccd6;
 }
 
+.signup-form {
+    background-color: #FFF;
+}
+
 .signup-button {
     background-color: #d9333f;
     border: 1px;
@@ -70,4 +90,67 @@ html {
 
 .signup-button:hover {
     background-color: #d3ccd6;
+}
+
+.mb-4 {
+    background-color: #002856;
+    color: #FFF;
+}
+
+.top-body {
+    background-color: #FFF;
+}
+
+#news {
+    background-color:#FFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.information {
+    background-color:#FFF;
+}
+
+.nav {
+    padding-top: 20px;
+}
+
+#tab1 h3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.mypage {
+    background-color: #FFF;
+}
+
+.user-profile {
+    list-style: none;
+}
+
+.edit-button {
+    justify-content: center;
+    background-color: #ffdb4f;
+    border: 1px;
+    border-color: #c0c6c9;
+    border-radius: 5px;
+    color: #383c3c;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.update-form {
+    background-color: #FFF;
+}
+
+.update-button {
+    justify-content: center;
+    background-color: #d9333f;
+    border: 1px;
+    border-color: #c0c6c9;
+    border-radius: 5px;
+    color: #fef4f4;
+    font-weight: 400;
+    font-size: 30px;
 }
