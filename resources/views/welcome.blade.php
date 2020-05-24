@@ -1,6 +1,7 @@
 @extends('layouts.app', ['header' => false])
 
 @section('content')
+    <div class="welcome-body">
         @if (Auth::check())
             @include('users.index')
         @else
@@ -31,4 +32,5 @@
         </div>
         </div>
     @endif
+    </div>
 @endsection

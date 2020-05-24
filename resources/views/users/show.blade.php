@@ -1,4 +1,4 @@
-@extends('layouts.app', ['header' => false])
+@extends('layouts.app')
 
 @section('content')
     <div class="mypage">
@@ -27,3 +27,5 @@
        {!! link_to_route('users.edit', '編集', ['user' => $user], ['class' => 'btn edit-button btn-block']) !!}
     </div>
     </div>
+    
+@endsection

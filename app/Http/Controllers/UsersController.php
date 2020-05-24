@@ -51,7 +51,6 @@ class UsersController extends Controller
             'name' => 'required|string|max:255',
             'name_ruby' => 'required|string|max:225',
             'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6|confirmed',
             'department' => 'required|string|max:225',
             'tel' => 'required|string|max:10',
             'birthday' => 'required|string|max:20',
@@ -61,16 +60,15 @@ class UsersController extends Controller
         
         $user = User::find($id);
         $user->name = $data->name;
-        $user->name_ruby = $data->_ruby;
+        $user->name_ruby = $data->name_ruby;
         $user->email = $data->email;
-        $user->password = $data->password;
         $user->department = $data->department;
         $user->tel = $data->tel;
         $user->birthday = $data->birthday;
-        $user->hobby = $data->birthday;
+        $user->hobby = $data->hobby;
         $user->comment = $data->comment;
         $user->save();
         
-        return redirect('users.show');
+        return redirect()->route('users.show', ['user' => $user]);
     }
 }
