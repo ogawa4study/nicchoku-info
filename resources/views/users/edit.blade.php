@@ -49,7 +49,7 @@
                     {!! Form::text('comment', $user->comment, ['class' => 'form-control']) !!}
                 </div>
 
-                {!! Form::submit('Update', ['class' => 'btn update-button btn-block']) !!}
+                {!! Form::submit('users.update','Update', ['id'=> $user->id], ['class' => 'btn update-button btn-block']) !!}
             {!! Form::close() !!}
         </div>
     </div>

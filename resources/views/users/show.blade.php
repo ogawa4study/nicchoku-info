@@ -3,6 +3,8 @@
 @section('content')
     <div class="mypage">
     <div class="text-center">
+        <div class="row">
+            <div class="col-md-2">
         <h1>My page</h1>
         
         <ul class="user-profile">
@@ -24,7 +26,9 @@
                 <li>{{ $user->comment }}</li>
         </ul>
         
-       {!! link_to_route('users.edit', '編集', ['user' => $user], ['class' => 'btn edit-button btn-block']) !!}
+           {!! link_to_route('users.edit', '編集', ['user' => $user], ['class' => 'btn edit-button btn-block']) !!}
+            </div>
+       </div>
     </div>
     </div>
     

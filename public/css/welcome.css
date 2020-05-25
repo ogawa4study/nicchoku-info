@@ -1,13 +1,24 @@
 @charset "UTF-8";
 
 html {
+    height: 100%;
     margin: 0;
     padding: 0;
     background-color: #002856;
     text-align: center;
 }
 
-.welcome-body {
+body {
+    height: 100vh;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+#welcome-body {
     background-color: #002856;
 }
 
@@ -16,7 +27,7 @@ html {
 }
 
 .navbar-nav {
-    color:#FFF;
+    color:　#FFF;
 }
 
 #intro .intro-text{
@@ -97,7 +108,7 @@ html {
     color: #FFF;
 }
 
-.top-body {
+#top-body {
     background-color: #FFF;
 }
 
@@ -110,10 +121,21 @@ html {
 
 .information {
     background-color:#FFF;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
 .nav {
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    background-color: #ffdb4f;
+    color: #002856;
 }
 
 #tab1 h3 {
@@ -123,10 +145,12 @@ html {
 
 .mypage {
     background-color: #FFF;
+    margin-top: 100px;
 }
 
 .user-profile {
     list-style: none;
+    margin-top: 50px;
 }
 
 .edit-button {
