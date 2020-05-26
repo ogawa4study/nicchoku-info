@@ -37,7 +37,7 @@
     </section>
     
     <div class="information">
-    <ul class="nav nav-tabs" role="tablist">
+    <ul class="nav nav-tabs border-left border-right border-bottom" role="tablist">
         <li class="nav-item">
             <a class="nav-link active" id="reservation-tab" data-toggle="tab" href="#reservation" role="tab" aria-controls="reservation" arisa-selected="true">会議室予約</a>
         </li>

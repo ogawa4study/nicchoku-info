@@ -22,13 +22,13 @@ class UsersController extends Controller
                 'users' => $users,
             ]);
         }
-        
         return view('welcome', $data);
         
     }
     
     public function show($id)
     {
+        
         $user = \Auth::user();
         
         return view('users.show', [
@@ -43,14 +43,16 @@ class UsersController extends Controller
         return view('users.edit', [
             'user' => $user,
         ]);
+        
     }
     
     public function update(Request $data, $id)
     {
+       
         $this->validate($data, [
             'name' => 'required|string|max:255',
             'name_ruby' => 'required|string|max:225',
-            'email' => 'required|string|email|max:255|unique:users',
+            'email' => 'required|string|email|max:255',
             'department' => 'required|string|max:225',
             'tel' => 'required|string|max:10',
             'birthday' => 'required|string|max:20',

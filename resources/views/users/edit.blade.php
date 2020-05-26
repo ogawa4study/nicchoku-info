@@ -8,7 +8,7 @@
     
     <div class="row">
         <div class="col-md-6">
-            {!! Form::open(['route' => ['users.update', '$user->id']]) !!}
+            {!! Form::model($user, ['route' => ['users.update', $user->id], 'method' => 'put']) !!}
                 <div class="form-group">
                     {!! Form::label('name', '名前') !!}
                     {!! Form::text('name', $user->name, ['class' => 'form-control']) !!}
@@ -49,7 +49,7 @@
                     {!! Form::text('comment', $user->comment, ['class' => 'form-control']) !!}
                 </div>
 
-                {!! Form::submit('users.update','Update', ['id'=> $user->id], ['class' => 'btn update-button btn-block']) !!}
+                {!! Form::submit('Update', ['class' => 'btn update-button btn-block']) !!}
             {!! Form::close() !!}
         </div>
     </div>
