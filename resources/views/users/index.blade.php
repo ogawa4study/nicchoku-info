@@ -38,7 +38,8 @@
     </section>
     
     <div class="information">
-        <ul class="nav nav-tabs border-left border-right border-bottom">
+        <div class="info-contents">
+        <ul class="nav nav-tabs">
             <li class="nav-item">
                 <a class="nav-link active" data-toggle="tab" href="#reservation">会議室予約</a>
             </li>
@@ -52,8 +53,9 @@
                 <a class="nav-link" data-toggle="tab" href="#ci">CI規定</a>
             </li>
         </ul>
+        
     
-        <div class="tab-content">
+        <div class="tab-content border-left border-right border-bottom">
             <div class="tab-pane fade show active" id="reservation">
                 <h3 class="text-center">会議室予約は<a href="https://nicchoku-info2/images_nicchoku-info2/reservation.png" target="_blank">こちら</a></h3>
             </div>
@@ -167,6 +169,7 @@
             <div class="tab-pane fade" id="ci">
                 <h3 class="text-center">CI規定は<a href="#">こちら</a></h3>
             </div>
+        </div>
         </div>
     </div>
     
