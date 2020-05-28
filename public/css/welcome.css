@@ -120,17 +120,21 @@ body {
 
 .information {
     background-color:#FFF;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .info-contents {
-    width:80%;
+    width: 90%;
 }
 
 .nav.nav-tabs {
-    margin: 0;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 0;
 }
 
 .nav-link {
@@ -139,13 +143,22 @@ body {
 }
 
 .tab-content {
-    height: 300px;
+    height: 800px;
 }
 
-#tab1 h3 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+.table {
+    margin-left: 20px;
+    width: 95%;
 }
+
+.tab-pane h3 {
+    padding-top: 100px;
+}
+
+/*#tab1 h3 {*/
+/*    padding-top: 100px;*/
+/*    padding-bottom: 100px;*/
+/*}*/
 
 .mypage {
     background-color: #FFF;

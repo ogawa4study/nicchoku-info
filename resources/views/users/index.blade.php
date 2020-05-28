@@ -37,7 +37,7 @@
         </ul>
     </section>
     
-    <div class="information">
+    <div class="information border-left border-right border-bottom">
         <div class="info-contents">
         <ul class="nav nav-tabs">
             <li class="nav-item">
@@ -89,7 +89,7 @@
             
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="strictly-rules">
-                        <table class="table table-bordered table-striped">
+                        <table class="table table-borderd table-striped">
                             <thead>
                                 <tr>
                                     <th>項目</th>
@@ -150,6 +150,55 @@
                                 </tr>
                                 <tr>
                                     <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
                                 </tr>  
                             </thead>
                         </table>
