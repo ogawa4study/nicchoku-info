@@ -89,7 +89,7 @@
             
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="strictly-rules">
-                        <table class="table table-borderd table-striped">
+                        <table class="table table-striped table-borderd">
                             <thead>
                                 <tr>
                                     <th>項目</th>
@@ -203,17 +203,717 @@
                             </thead>
                         </table>
                     </div>
-                    <div class="tab-pane fade" id="environment">aaaa</div>
-                    <div class="tab-pane fade" id="tools">aaaa</div>
-                    <div class="tab-pane fade" id="application">aaaa</div>
-                    <div class="tab-pane fade" id="labor">aaaa</div>
-                    <div class="tab-pane fade" id="study">aaaa</div>
-                    <div class="tab-pane fade" id="benefits">aaaa</div>
-                    <div class="tab-pane fade" id="organaization">aaaa</div>
+                    <div class="tab-pane fade" id="environment">
+                        <table class="table table-striped table-borderd">
+                            <thead>
+                                <tr>
+                                    <th>項目</th>
+                                    <th>罰則</th>
+                                    <th>問い合わせ先</th>
+                                    <th>更新日</th>
+                                    <th>関連規定および資料</th>
+                                    <th>入社時配布(社・契・ア)</th>
+                                    <th>入社時配布(派・委)</th>
+                                    <th>退職時に必要</th>
+                                    <th>申請書</th>
+                                    <th>承認者</th>
+                                    <th>発行日</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">行動規範</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2008.02.27</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">個人情報・会社情報の取り扱いについて</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2017.04.11</td>
+                                    <td>
+                                        <a href-"#">個人情報保護法</a><br>
+                                        <a href-"#">個人情報保護規程</a><br>
+                                        <a href-"#">安全管理規程</a><br>
+                                        <a href-"#">特定個人情報取扱規程</a><br>
+                                    </td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">会社の情報の取扱いに関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2011.04.01</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">PC・情報機器の利用について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>  
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="tools">
+                        <table class="table table-striped table-borderd">
+                            <thead>
+                                <tr>
+                                    <th>項目</th>
+                                    <th>罰則</th>
+                                    <th>問い合わせ先</th>
+                                    <th>更新日</th>
+                                    <th>関連規定および資料</th>
+                                    <th>入社時配布(社・契・ア)</th>
+                                    <th>入社時配布(派・委)</th>
+                                    <th>退職時に必要</th>
+                                    <th>申請書</th>
+                                    <th>承認者</th>
+                                    <th>発行日</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">行動規範</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2008.02.27</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">個人情報・会社情報の取り扱いについて</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2017.04.11</td>
+                                    <td>
+                                        <a href-"#">個人情報保護法</a><br>
+                                        <a href-"#">個人情報保護規程</a><br>
+                                        <a href-"#">安全管理規程</a><br>
+                                        <a href-"#">特定個人情報取扱規程</a><br>
+                                    </td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">会社の情報の取扱いに関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2011.04.01</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">PC・情報機器の利用について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>  
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="application">
+                        <table class="table table-striped table-borderd">
+                            <thead>
+                                <tr>
+                                    <th>項目</th>
+                                    <th>罰則</th>
+                                    <th>問い合わせ先</th>
+                                    <th>更新日</th>
+                                    <th>関連規定および資料</th>
+                                    <th>入社時配布(社・契・ア)</th>
+                                    <th>入社時配布(派・委)</th>
+                                    <th>退職時に必要</th>
+                                    <th>申請書</th>
+                                    <th>承認者</th>
+                                    <th>発行日</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">行動規範</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2008.02.27</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">個人情報・会社情報の取り扱いについて</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2017.04.11</td>
+                                    <td>
+                                        <a href-"#">個人情報保護法</a><br>
+                                        <a href-"#">個人情報保護規程</a><br>
+                                        <a href-"#">安全管理規程</a><br>
+                                        <a href-"#">特定個人情報取扱規程</a><br>
+                                    </td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">会社の情報の取扱いに関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2011.04.01</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">PC・情報機器の利用について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>  
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="labor">
+                        <table class="table table-striped table-borderd">
+                            <thead>
+                                <tr>
+                                    <th>項目</th>
+                                    <th>罰則</th>
+                                    <th>問い合わせ先</th>
+                                    <th>更新日</th>
+                                    <th>関連規定および資料</th>
+                                    <th>入社時配布(社・契・ア)</th>
+                                    <th>入社時配布(派・委)</th>
+                                    <th>退職時に必要</th>
+                                    <th>申請書</th>
+                                    <th>承認者</th>
+                                    <th>発行日</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">行動規範</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2008.02.27</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">個人情報・会社情報の取り扱いについて</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2017.04.11</td>
+                                    <td>
+                                        <a href-"#">個人情報保護法</a><br>
+                                        <a href-"#">個人情報保護規程</a><br>
+                                        <a href-"#">安全管理規程</a><br>
+                                        <a href-"#">特定個人情報取扱規程</a><br>
+                                    </td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">会社の情報の取扱いに関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2011.04.01</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">PC・情報機器の利用について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>  
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="study">
+                        <table class="table table-striped table-borderd">
+                            <thead>
+                                <tr>
+                                    <th>項目</th>
+                                    <th>罰則</th>
+                                    <th>問い合わせ先</th>
+                                    <th>更新日</th>
+                                    <th>関連規定および資料</th>
+                                    <th>入社時配布(社・契・ア)</th>
+                                    <th>入社時配布(派・委)</th>
+                                    <th>退職時に必要</th>
+                                    <th>申請書</th>
+                                    <th>承認者</th>
+                                    <th>発行日</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">行動規範</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2008.02.27</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">個人情報・会社情報の取り扱いについて</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2017.04.11</td>
+                                    <td>
+                                        <a href-"#">個人情報保護法</a><br>
+                                        <a href-"#">個人情報保護規程</a><br>
+                                        <a href-"#">安全管理規程</a><br>
+                                        <a href-"#">特定個人情報取扱規程</a><br>
+                                    </td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">会社の情報の取扱いに関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2011.04.01</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">PC・情報機器の利用について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>  
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="benefits">
+                        <table class="table table-striped table-borderd">
+                            <thead>
+                                <tr>
+                                    <th>項目</th>
+                                    <th>罰則</th>
+                                    <th>問い合わせ先</th>
+                                    <th>更新日</th>
+                                    <th>関連規定および資料</th>
+                                    <th>入社時配布(社・契・ア)</th>
+                                    <th>入社時配布(派・委)</th>
+                                    <th>退職時に必要</th>
+                                    <th>申請書</th>
+                                    <th>承認者</th>
+                                    <th>発行日</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">行動規範</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2008.02.27</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                    <td>--</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">個人情報・会社情報の取り扱いについて</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2017.04.11</td>
+                                    <td>
+                                        <a href-"#">個人情報保護法</a><br>
+                                        <a href-"#">個人情報保護規程</a><br>
+                                        <a href-"#">安全管理規程</a><br>
+                                        <a href-"#">特定個人情報取扱規程</a><br>
+                                    </td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">会社の情報の取扱いに関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2011.04.01</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">PC・情報機器の利用について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="#">インフル、ノロなどの予防と感染時の対応について</a></td>
+                                    <td>懲戒</td>
+                                    <td>総務</td>
+                                    <td>2018.05.18</td>
+                                    <td>--</td>
+                                    <td>○</td>
+                                    <td>○</td>
+                                    <td>--</td>
+                                    <td><a href="#">PC・情報機器の社内利用に関する誓約書</a></td>
+                                    <td>--</td>
+                                    <td>2018.10.10</td>
+                                </tr>  
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="organaization">aaa</div>
                 </div>
             </div>
             <div class="tab-pane fade" id="profile">
                 <h3>プロフィール</h3>
+                <div class="select order">
+                    <label>
+                        <select>
+                            <option selected>あ行</option>
+                            <option>か行</option>
+                            <option>さ行</option>
+                            <option>た行</option>
+                            <option>な行</option>
+                            <option>は行</option>
+                            <option>ま行</option>
+                            <option>や行</option>
+                            <option>ら行</option>
+                            <option>わ行</option>
+                        </select>
+                    </label>
+                </div>
             </div>
             <div class="tab-pane fade" id="ci">
                 <h3 class="text-center">CI規定は<a href="#">こちら</a></h3>

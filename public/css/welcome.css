@@ -155,10 +155,10 @@ body {
     padding-top: 100px;
 }
 
-/*#tab1 h3 {*/
-/*    padding-top: 100px;*/
-/*    padding-bottom: 100px;*/
-/*}*/
+.table th {
+    background-color: #002856;
+    color: #FFF;
+}
 
 .mypage {
     background-color: #FFF;
