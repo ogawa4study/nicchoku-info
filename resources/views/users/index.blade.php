@@ -83,7 +83,7 @@
                         <a class="nav-link" data-toggle="tab" href="#benefits">福利厚生</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" deta-toggle="tab" href="#organaization">組織図</a>
+                        <a class="nav-link" data-toggle="tab" href="#organaization">組織図</a>
                     </li>
                 </ul>
             
