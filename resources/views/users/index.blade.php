@@ -57,7 +57,7 @@
     
         <div class="tab-content border-left border-right border-bottom">
             <div class="tab-pane fade show active" id="reservation">
-                <h3 class="text-center">会議室予約は<a href="https://nicchoku-info2/images_nicchoku-info2/reservation.png" target="_blank">こちら</a></h3>
+                <h3 class="text-center">会議室予約は<a href="https://nicchoku-info2/images_nicchoku-info2/DSC_1998.JPG">こちら</a></h3>
             </div>
             <div class="tab-pane fade" id="manual">
                 <ul class="nav nav-tabs">
@@ -893,27 +893,15 @@
                             </thead>
                         </table>
                     </div>
-                    <div class="tab-pane fade" id="organaization">aaa</div>
+                    <div class="tab-pane fade" id="organaization">
+                        <img src="images_nicchoku-info2/DSC_1998.JPG">
+                    </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="profile">
                 <h3>プロフィール</h3>
-                <div class="select order">
-                    <label>
-                        <select>
-                            <option selected>あ行</option>
-                            <option>か行</option>
-                            <option>さ行</option>
-                            <option>た行</option>
-                            <option>な行</option>
-                            <option>は行</option>
-                            <option>ま行</option>
-                            <option>や行</option>
-                            <option>ら行</option>
-                            <option>わ行</option>
-                        </select>
-                    </label>
-                </div>
+                
+                
             </div>
             <div class="tab-pane fade" id="ci">
                 <h3 class="text-center">CI規定は<a href="#">こちら</a></h3>

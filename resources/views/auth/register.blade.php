@@ -60,13 +60,10 @@
                     {!! Form::text('comment', old('comment'), ['class' => 'form-control']) !!}
                 </div>
                 
-            <!--<div class="col-md-6">-->
-                <!--<div class="profile picture text-center">-->
-                <!--        <img src="picture/profile-icon.png" alt="プロフィールアイコン">-->
-                <!--</div>-->
-                <!--参考サイトの画像追加フォーム-->
+            <div class="col-md-6">
+                @include('item.create')
                 
-            <!--</div>-->
+            </div>
 
                 {!! Form::submit('Sign up', ['class' => 'btn signup-button btn-block']) !!}
             {!! Form::close() !!}

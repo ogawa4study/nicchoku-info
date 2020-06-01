@@ -73,4 +73,12 @@ class UsersController extends Controller
         
         return redirect()->route('users.show', ['user' => $user]);
     }
+    
+    // public function sort() {
+    //     $users = User::orderBy('name_ruby')->paginate(10);
+
+    //     return view('users.sort', [
+    //         'users' => $users,
+    //     ]);
+    // }
 }

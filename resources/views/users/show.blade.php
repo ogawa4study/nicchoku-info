@@ -24,6 +24,7 @@
                 <li>{{ $user->hobby }}</li>
                 <li><b>ひとこと</b></li>
                 <li>{{ $user->comment }}</li>
+                <li><img src="{{ asset('/storage/img/.1_000000000333.jpg') }}"></li>
         </ul>
         
            {!! link_to_route('users.edit', '編集', ['user' => $user], ['class' => 'btn edit-button btn-block']) !!}
